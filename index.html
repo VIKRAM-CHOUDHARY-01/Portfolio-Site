@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+   
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  
+    <!-- NavBar -->
+    <nav id="desktop-nav">
+        <div class="name">Vikram Choudhary</div>
+        <div class="nav-options">
+            <a href="#about-section">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#Projects">Projects</a>
+            <a href="#footer">Contact</a>
+        </div>
+    </nav>
+
+    <!-- HamBurger Nav -->
+    <nav id="hamburger-nav">
+        <div class="name">Vikram Choudhary</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+                 
+    
+            </div>
+            <div>
+                <div class="menu-links">
+                    <a href="#about-section" onclick="toggleMenu()">About</a>
+                    <a href="#experience" onclick="toggleMenu()">Experience</a>
+                    <a href="#Projects" onclick="toggleMenu()">Projects</a>
+                    <a href="#footer" onclick="toggleMenu()">Contact</a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+   
+
+    <!-- Hero Section -->
+
+    <section id="hero">
+
+        <div class="profile-picture">
+            <img src="images/vikram_choudhary_photo.jpg" alt="vikram_choudhary_photo" height="400px" width="400px">
+        </div>
+        <div class="short-bio">
+            <p>Hello I'm</p>
+            <div class="title">VIKRAM CHOUDHARY</div>
+            <p id="web">Web Developer</p>
+            <div class="btn">
+                <button  onclick="window.open('Assets/MyResume1.pdf')">Download CV</button>
+                <button id="btn2" onclick="location.href='./index.html#footer'">Contact Info</button>
+            </div>
+
+            <div class="social">
+                <i class="fa-brands fa-linkedin" class="icon"></i>
+                <i class="fa-brands fa-github" class="icon"></i>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about-section">
+
+        <p class="get-to-know-p">Get to Know More</p>
+        <h3 class="about-me-h3">About me</h3>
+        <div class="about-container">
+
+            <div class="about-img">
+                <img src="images/about-pic.jpg" alt="about-pic" class="about-pic">
+            </div>
+
+
+            <div class="container">
+
+                <div class="about-details-container">
+
+                    <div class="about-details">
+
+                        <img src="images/experience.png" alt="" height="32px">
+                        <h3>Experience</h3>
+                        <p>1+ Year</p>
+                        <p>Web Development</p>
+                    </div>
+
+                    <div class="about-details">
+                        <img src="images/education.png" alt="" height="32px">
+                        <h3>Experience</h3>
+                        <p>1+ Year</p>
+                        <p>Web Development</p>
+                    </div>
+                </div>
+
+                <div class="text-cont">
+                    <p>Hello there! I'm Vikram Kumar Choudhary, a multifaceted individual whose
+                        interests span across various domains. Beyond my proficiency in Frontend
+                        Development, I am an avid movie enthusiast, finding inspiration in the art
+                        of storytelling and visual aesthetics. In addition to my tech journey,
+                        I bring a disciplined and committed approach, thanks to my time as an NCC cadet.</p>
+                </div>
+
+            </div>
+
+        </div>
+        <img src="images/arrow.png" alt="arrow" class="arrow" height="32px">
+    </section>
+    <!-- about section ends -->
+
+    <!-- Experience Section -->
+
+    <section id="experience">
+        <p class="get-to-know-p">Explore My</p>
+        <h3 class="about-me-h3">Experience</h3>
+
+
+        <div class="experience-detail-container">
+
+            <div class="about-details-container">
+                <div class="about-details">
+                    <div class="experience-head">
+                        Frontend Development
+                    </div>
+                    <div class="article-container">
+                        <article>
+                            <img src="images/checkmark.png" alt="checkmark" height="32px">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/checkmark.png" alt="checkmark" height="32px">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/checkmark.png" alt="checkmark" height="32px">
+                            <div>
+                                <h3>Java Script</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/checkmark.png" alt="checkmark" height="32px">
+                            <div>
+                                <h3>Java Core</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/checkmark.png" alt="checkmark" height="32px">
+                            <div>
+                                <h3>Php Core</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/checkmark.png" alt="checkmark" height="32px">
+                            <div>
+                                <h3>CMS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                    </div>
+
+
+                </div>
+
+                <div class="about-details">
+                    <div class="experience-head">
+                        Frontend Development
+                    </div>
+                    <div class="article-container">
+                        <article>
+                            <img src="images/checkmark.png" alt="checkmark" height="32px">
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/checkmark.png" alt="checkmark" height="32px">
+                            <div>
+                                <h3>C</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/checkmark.png" alt="checkmark" height="32px">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/checkmark.png" alt="checkmark" height="32px">
+                            <div>
+                                <h3>Shopify</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <img src="images/arrow.png" alt="arrow" class="arrow" height="32px">
+
+    </section>
+
+    <!-- Projects Section  -->
+
+    <section id="Projects">
+        <p class="get-to-know-p">Browse My Recent</p>
+        <h1 class="about-me-h3"> Projects</h1>
+        <div class="experience-details-container">
+            <div class="most">
+                <div class="box">
+                    <img src="images/project-1.png" alt="" height="300px" style="padding: 10px;">
+                    <h1 class="about-me-h3"> Projects One</h1>
+                    <div class="btn">
+                        <button>Git Hub</button>
+                        <button id="btn2">Live Demo</button>
+                    </div>
+    
+    
+                </div>
+                <div class="box">
+                    <img src="images/project-2.png" alt="" height="300px" style="padding: 10px;">
+                    <h1 class="about-me-h3"> Project Two</h1>
+                    <div class="btn">
+                        <button>Git Hub</button>
+                        <button id="btn2">Live Demo</button>
+                    </div>
+    
+                </div>
+                <div class="box">
+                    <img src="images/project-3.png" alt="" height="300px" style="padding: 10px;">
+                    <h1 class="about-me-h3"> Project Three</h1>
+                    <div class="btn">
+                        <button>Git Hub</button>
+                        <button id="btn2">Live Demo</button>
+                    </div>
+    
+
+            </div>
+            
+
+            </div>
+        </div>
+        
+
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p class="get-to-know-p">Get in Touch</p>
+        <h1 class="about-me-h3"> Contact Me</h1>
+
+        <div class="box-small">
+            <div class="small">
+                <div class="email">
+                    <img src="images/email.png" alt="" height="32px">
+                    <a href="">vikram.choudhary1116@gmail.com</a>
+                    
+    
+                </div>
+                <div class="email">
+                    <img src="images/linkedin.png" alt="" height="32px">
+                    <a href="">Linkedin</a>
+                    
+    
+                </div>
+               
+    
+            </div>
+
+        </div>
+
+       
+
+        <div class="links nav-options">
+            <ul>
+                <a href="#about-section">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#Projects">Projects</a>
+                <a href="#footer">Contect</a>
+            </ul>
+            <p>Copyright &#169; 2024 Vikram Choudhary. All Right Reserved</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu(){
+       const menu = document.querySelector(".menu-links");
+       const icon = document.querySelector(".hamburger-icon");
+       menu.classList.toggle("open");
+       icon.classList.toggle("open");
+   }
+       </script>
+</body> 
+
+</html>
